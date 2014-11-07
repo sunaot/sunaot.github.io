@@ -64,6 +64,14 @@ ___
 
     gem 'minitest', group: 'test'
 
+標準添付のものではなく最新の gem を使っておくと、今後リリースされる Ruby で起こりうる互換性の問題へ当たらずに済みます。
+
+___
+
+> しかし、このままRuby 2.2.0をリリースするとTest::Unit互換APIがなくなってしまいます。さらに、minitestはAPIの互換性がなくなっているので既存のテストはそのままでは動きません。つまり、既存のRubyが提供しているminitestまたはtest/unitを使っているユーザーはRuby 2.2.0にアップグレードするとテストが動かなくなるということです。
+
+via http://www.clear-code.com/blog/2014/11/6.html
+
 ---
 
 ## RSpec
