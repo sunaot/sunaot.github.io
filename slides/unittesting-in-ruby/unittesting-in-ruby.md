@@ -354,8 +354,9 @@ ___
 
 ### 結合テストをする
 
-* Capybara
-* Turnip
+* Controller を薄くした分、結合テストでパスを通すようにする
+    * Capybara
+    * Turnip
 
 ---
 
